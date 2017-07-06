@@ -66,6 +66,7 @@ div.tab button.active {
   <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Biography</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Likes and Dislikes</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">My favorite links</button>
+  <button class="tablinks" onclick="openCity(event, 'Recent Works')" id="defaultOpen">Recent Works</button>
 </div>
 
 <div id="Biography" class="tabcontent">
@@ -83,6 +84,17 @@ div.tab button.active {
   <p>Links that I enjoy.</p>
 </div>
 
+ <div id="Recent Works" class="tabcontent">
+  <h3>Recent Works</h3>
+  <p>Some of my recent computer science works.</p>
+</div>
+  
+  <div id="Fun Facts" class="tabcontent">
+  <h3>Fun Facts</h3>
+  <p>Some Interesting things about me.</p>
+</div>
+  
+  
 <script>
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
