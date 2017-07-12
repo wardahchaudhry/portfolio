@@ -12,11 +12,42 @@
 <img src="WardahandRida" alt="My Friends" style="width:400px;height:330px;"> 
 </body>
 </html>
+ <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Logo.png" style="width:100%">
+    <div class="text">Wardah is translated to flower in Arabic</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="MOUNTAINS.jpg" style="width:100%">
+    <div class="text">I love to travel but I always fall asleep during car rides</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="WardahandRida.jpg" style="width:100%">
+    <div class="text">My best friend and I</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div> 
+  
+  
 <!DOCTYPE html>
 <html>
 <head>
 <style>
-* {box-sizing: border-box}
+* {box-sizing:}
 body {font-family: "Lato", Bodoni MT Condensed;}
 /* Style the tab */
 div.tab {
@@ -64,10 +95,10 @@ div.tab button.active {
 
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Biography</button>
+  <button class="tablinks" onclick="openCity(event, 'London')">Biography</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Likes and Dislikes</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">My favorite links</button>
-  <button class="tablinks" onclick="openCity(event, 'Recent Works')" id="defaultOpen">Recent Works</button>
+  <button class="tablinks" onclick="openCity(event, 'Recent Works')">Recent Works</button>
   <button class="tablinks" onclick="openCity(event, 'Fun Facts')">Fun Facts</button>
 </div>
 
